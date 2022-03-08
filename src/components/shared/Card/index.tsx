@@ -1,30 +1,20 @@
-import { rejects } from 'assert';
+import { jsx } from '@emotion/react'
 import type { NextPage } from 'next'
+import React, { useRef } from 'react'
+import useMoveObject from "../../useMoveObject"
 
-const getRectFunc = () => {
-  const getRect = document.getElementById("card");
-  const rect = getRect!.getBoundingClientRect();
-  console.log(getRect!.getBoundingClientRect());
-  rect.width = 500
-  console.log(rect.width)
-  // rect.background = "blue"
-};
+const Card = () => {
+  const boxRef = useRef(null)
+  const mouseEventAndStyle = useMoveObject(boxRef.current)
 
-const card = {
-  // background: "red"
-}
-
-const Card: NextPage = () => {
   return (
-    <>
-
-
-      <h1>カード</h1>
-      <button id="card" onClick={getRectFunc} style={card}>
-        button
-      </button>
-    </>
-  )
+    <div>
+      <div {...mouseEventAndStyle}>
+        <div style={{backgroundColor:"red", width:30, height:30}} ref={boxRef}>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Card
