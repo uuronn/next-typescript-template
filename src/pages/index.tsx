@@ -7,6 +7,8 @@ const Home: NextPage = () => {
     <>
       <h1>Hello Next.js</h1>
       <Card />
+      
+      <App/>
       <App/>
       
     </>
