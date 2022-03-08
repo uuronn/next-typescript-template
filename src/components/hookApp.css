@@ -1,0 +1,22 @@
+/* .Appp {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+  width: 400px;
+  height: 300px;
+  margin:5px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+
+  @-webkit-keyframes rotate {
+    100% {
+      -webkit-transform: rotate(1turn);
+      transform: rotate(1turn);
+    }
+  }
+}
+
+.App-input {
+  background: red;
+} */
