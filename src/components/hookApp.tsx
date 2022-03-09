@@ -12,7 +12,11 @@ const hoge = css`
 
 const App: React.FC = () => {
   const interact = useInteractJS()
-
+  // console.log(interact)
+  // console.log(interact.position.width)
+  // interact.position.width = 300
+  // console.log(interact.position.width)
+  // interact.position.x = 300
 //   const cardRote = css`
 //     box-sizing: border-box;
 //     position: relative;
@@ -88,7 +92,7 @@ const App: React.FC = () => {
       <button onClick={() => interact.disable()}>無効化</button>
       <input css={hoge}
         type="text"
-        value="fdfdf"
+        // value="fdfdf"
         ref={interact.ref}
         style={{
           ...interact.style,
