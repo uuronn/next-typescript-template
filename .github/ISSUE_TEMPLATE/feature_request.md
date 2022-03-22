@@ -1,8 +1,8 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: "test444"
-labels: "test"
+title: ""
+labels: "bug"
 assignees: "test777"
 ---
 
