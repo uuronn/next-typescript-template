@@ -2,6 +2,7 @@ import "../../styles/globals.css";
 import "../../styles/reset.css";
 import type { AppProps } from "next/app";
 import { DefaultSeo } from "next-seo";
+import { UseContextProvider } from "../context/UseContext";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
@@ -26,7 +27,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           ]
         }}
       />
-      <Component {...pageProps} />
+      <UseContextProvider>
+        <Component {...pageProps} />
+      </UseContextProvider>
     </>
   );
 };
