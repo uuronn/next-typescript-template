@@ -1,9 +1,15 @@
 :root {
   --black: #000000;
+  --black-lighten-1: #707070;
+
   --white: #ffffff;
 
   color: var(--black);
 
   font-size: 10px;
   font-weight: 500;
+
+  --z-index--high: 100;
+  --z-index--medium: 10;
+  --z-index--low: 5;
 }
