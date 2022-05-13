@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import { IndexTemplate } from "../components/template/Index";
 
-const Home: NextPage = () => <IndexTemplate />;
+const Home: NextPage = () => <h1>index page</h1>;
 
 export default Home;

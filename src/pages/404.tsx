@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import { ErrorPageTemplate } from "../components/template/ErrorPage";
 
-const Home: NextPage = () => <ErrorPageTemplate />;
+const custom404Page: NextPage = () => <h1>404 error page</h1>;
 
-export default Home;
+export default custom404Page;

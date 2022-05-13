@@ -6,6 +6,12 @@
 
   color: var(--black);
 
+  --montserrat: "Montserrat";
+  --noto-sans-jp: "Noto Sans JP";
+  --noto-serif-jp: "Noto Serif JP";
+
+  font-family: var(--noto-sans-jp), sans-serif;
+
   font-size: 10px;
   font-weight: 500;
 
