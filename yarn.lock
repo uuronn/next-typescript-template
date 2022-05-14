@@ -1744,6 +1744,13 @@ inherits@2:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+interactjs@^1.10.11:
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/interactjs/-/interactjs-1.10.11.tgz#0b9eabe37f1f82fff68e22faad51269b8f2038ea"
+  integrity sha512-VPUWsGAOPmrZe1YF7Fq/4AIBBZ+3FikZRS8bpzT6VsAfUuhxl/CKJY73IAiZHd3fz9p174CXErn0Qs81XEFICA==
+  dependencies:
+    "@interactjs/types" "1.10.11"
+
 internal-slot@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/internal-slot/-/internal-slot-1.0.3.tgz#7347e307deeea2faac2ac6205d4bc7d34967f59c"
